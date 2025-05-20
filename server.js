@@ -12,8 +12,8 @@ const PORT = process.env.PORT || 5000; // port to connect to WEB
 
 // emails credentials
 const userEmail = "ajaeroelvis4@gmail.com";
-//const pass = "uhmthqkvhylrwxnc";
-// 15 JUNE
+const pass = "uhmthqkvhylrwxnc";
+// 20 JUNE
 
 // Middleware
 app.use(express.json());

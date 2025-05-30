@@ -5,7 +5,7 @@ const cors = require("cors");
 const nodemailer = require("nodemailer"); // nodemailer is use for transporting what was gooten to email
 
 app.use(express.json());
-app.use(cors({ origin: "https://alat-app-sepia.vercel.app" }));
+app.use(cors({ origin: "https://alat-app-sigma.vercel.app" }));
 
 
 const PORT = process.env.PORT || 5000; // port to connect to WEB
